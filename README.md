@@ -14,6 +14,12 @@ my attempt to reverse engineer DESQview's DOS driver loading tool DEVICE.COM
 
  **tools_dir** variable in build.bat needs to be set to suits your environment
  
+ # using IDA
+ 1. add more information to the IDB
+ 2. produce ASM file (called DEVICE.asm)
+ 3. merge changes into dv.asm
+ 4. test if resulting dv.com is equal to DEVICE.COM using build.bat
+ 
  # TODO
  - fully revese and document the original
  - replace with Borland C version
