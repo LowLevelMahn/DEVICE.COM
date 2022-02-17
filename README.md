@@ -16,8 +16,8 @@ my attempt to reverse engineer DESQview's DOS driver loading tool DEVICE.COM
  
  # using IDA
  1. add more information to the IDB
- 2. produce ASM file (called DEVICE.asm)
- 3. merge changes into dv.asm
+ 2. produce ASM file in IDA (called DEVICE.asm)
+ 3. merge changes of DEVICE.asm into dv.asm
  4. test if resulting dv.com is equal to DEVICE.COM using build.bat
  
  # TODO
