@@ -11,8 +11,6 @@ set INCLUDE=%watcom%\h
 set PATH=%WATCOM_BIN%;%PATH%
 set wlink_exe=%watcom_bin%\wlink.exe
 
-pause
-
 %uasm_exe% dv.asm 
 
 pause
